@@ -33,3 +33,5 @@
     "BOT_TOKEN": {
       "description": "get this value from @BotFather",
       "value": ""
+                 }
+}
