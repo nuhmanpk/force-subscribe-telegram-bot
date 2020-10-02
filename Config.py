@@ -12,7 +12,7 @@ class Config():
     SUDO_USERS = list(set(SUDO_USERS))
   else:
     BOT_TOKEN = ""
-    DATABASE_URL = "qldbtype://username:pw@hostname:port/db_name"
+    DATABASE_URL = "sqldbtype://username:pw@hostname:port/db_name"
     APP_ID = ""
     API_HASH = ""
     SUDO_USERS = list(set(int(x) for x in ''.split()))
